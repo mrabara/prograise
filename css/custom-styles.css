@@ -103,6 +103,12 @@
   width: 100%;
 }
 
+#gallery {
+  background-color: rgb(202, 198, 198);
+  display: flex;
+  justify-content: center;
+}
+
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .nav-wrapper .brand-logo {
