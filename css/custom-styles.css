@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-header {
+  background: url(../images/skyscraper4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 300px;
+  color: #fff;
+  position: relative;
+}
+
+.primary-overlay {
+  background: rgba(63, 57, 77, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.nav-wrapper .brand-logo {
+  display: flex;
+  align-self: center;
+}
+
+.brand-logo img {
+  display: none;
+}
+
+.sidenav > div {
+  height: 10%;
+  padding-top: 0.5%;
+  display: flex;
+  justify-content: center;
+}
+
+.sidenav > div img {
+  width: 13%;
+}
+
+.main-header .showcase {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 5%;
+}
+
+.scroll-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 40%;
+  opacity: 0.5;
+}
+
+.main-text h5 {
+  font-size: 0.75rem;
+}
+
+.main-text h1 {
+  font-size: 1rem;
+}
+
+.flow-text {
+  font-size: 0.75rem;
+}
+
+.flow-text ~ .btn {
+  display: none;
+}
+
+.box {
+  padding: 5% 2% !important;
+  height: 250px;
+}
+
+.box h4 {
+  font-size: 1.5rem;
+}
+
+.box .material-icons {
+  font-size: 2.5rem;
+}
+
+.section-boxes .row {
+  margin-bottom: 0 !important;
+}
+
+.section-about .row {
+  margin-top: 20px;
+}
+
+.section-about .row img {
+  border-radius: 50px 50px 50px 50px;
+}
+
+#contact iframe {
+  width: 100%;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .nav-wrapper .brand-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .brand-logo img {
+    display: inline;
+    width: 20%;
+  }
+
+  .main-header .showcase {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5%;
+  }
+
+  .main-text h5 {
+    font-size: 0.95rem;
+  }
+
+  .main-text h1 {
+    font-size: 2rem;
+  }
+
+  .flow-text {
+    font-size: 0.95rem;
+  }
+
+  .flow-text ~ .btn {
+    display: inline-block;
+  }
+
+  .btn-small {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0.5rem;
+    /* box-shadow: 2px 5px 6px #888888; */
+  }
+
+  .scroll-icon {
+    left: 47%;
+  }
+
+  .box {
+    padding: 2% 0.5% !important;
+    height: 250px;
+  }
+
+  .box h4 {
+    font-size: 1.5rem;
+  }
+
+  .box .material-icons {
+    font-size: 2.5rem;
+  }
+
+  .section-about .row {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .section-about .row img {
+    margin-top: 30px;
+    align-self: center;
+    border-radius: 50px 50px 50px 50px;
+  }
+}
+
+/* large Screen */
+@media only screen and (min-width: 992px) {
+  .main-header {
+    height: 100vh;
+    min-height: 600px;
+  }
+
+  .main-header .showcase {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5%;
+  }
+
+  .btn-large {
+    height: 50px;
+    line-height: 24px;
+    padding: 0.75rem 0.75rem;
+    font-weight: bold;
+    /* box-shadow: 2px 5px 6px #888888; */
+  }
+
+  .flow-text ~ .btn {
+    display: inline-block;
+  }
+
+  .nav-wrapper .brand-logo {
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+  }
+
+  .brand-logo img {
+    display: inline;
+    width: 10%;
+  }
+
+  .scroll-icon {
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.5;
+  }
+
+  .main-text h5 {
+    font-size: 2rem;
+  }
+
+  .main-text h1 {
+    font-size: 3rem;
+  }
+
+  .flow-text {
+    font-size: 2rem;
+  }
+
+  ul .sidenav {
+    display: none;
+  }
+
+  .box {
+    padding: 40px 10px !important;
+    height: 350px;
+  }
+
+  .box h4 {
+    font-size: 2rem;
+  }
+
+  .box .material-icons {
+    font-size: 3rem;
+  }
+
+  .section-about .row {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .section-about .row img {
+    border-radius: 50px 50px 50px 50px;
+  }
+
+  #gallery {
+    background-color: rgb(202, 198, 198);
+    display: flex;
+    justify-content: center;
+  }
+}
