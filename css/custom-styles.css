@@ -195,6 +195,14 @@
     display: flex;
     justify-content: center;
   }
+
+  #gallery h1 {
+    font-size: larger;
+  }
+
+  #about h2 {
+    font-size: larger;
+  }
 }
 
 /* large Screen */
@@ -285,5 +293,13 @@
     background-color: rgb(202, 198, 198);
     display: flex;
     justify-content: center;
+  }
+
+  #gallery h1 {
+    font-size: xx-large;
+  }
+
+  #about h2 {
+    font-size: 4rem;
   }
 }
