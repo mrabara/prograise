@@ -175,6 +175,12 @@
     align-self: center;
     border-radius: 50px 50px 50px 50px;
   }
+
+  #gallery {
+    background-color: rgb(202, 198, 198);
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* large Screen */
