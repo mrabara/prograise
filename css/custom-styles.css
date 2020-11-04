@@ -26,7 +26,7 @@
 
 .nav-wrapper .brand-logo {
   display: flex;
-  align-self: center;
+  justify-content: center;
 }
 
 .brand-logo img {
@@ -119,22 +119,9 @@
 
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .nav-wrapper .brand-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .brand-logo img {
     display: inline;
     width: 20%;
-  }
-
-  .main-header .showcase {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 5%;
   }
 
   .main-text h5 {
@@ -207,6 +194,10 @@
 
 /* large Screen */
 @media only screen and (min-width: 992px) {
+  .nav-wrapper .brand-logo {
+    justify-content: flex-start;
+  }
+
   .main-header {
     height: 100vh;
     min-height: 600px;
