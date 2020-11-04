@@ -87,10 +87,6 @@
   font-size: 2.5rem;
 }
 
-.section-boxes .row {
-  margin-bottom: 0 !important;
-}
-
 .section-about .row {
   margin-top: 20px;
 }
@@ -119,6 +115,10 @@
 
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .nav-wrapper .brand-logo {
+    justify-content: center;
+  }
+
   .brand-logo img {
     display: inline;
     width: 20%;
@@ -144,7 +144,6 @@
     height: 24px;
     line-height: 24px;
     padding: 0 0.5rem;
-    /* box-shadow: 2px 5px 6px #888888; */
   }
 
   .scroll-icon {
@@ -215,7 +214,6 @@
     line-height: 24px;
     padding: 0.75rem 0.75rem;
     font-weight: bold;
-    /* box-shadow: 2px 5px 6px #888888; */
   }
 
   .flow-text ~ .btn {
